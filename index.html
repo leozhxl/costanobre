@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mont Blanc Residence · Lançamento frente mar em Balneário Gaivota</title>
+  <meta name="description" content="Mont Blanc Residence: 20 pavimentos frente mar em Balneário Gaivota-SC, com coberturas duplex e apartamentos diferenciados. Entre no grupo VIP e receba a tabela antes de todo mundo.">
+  <meta name="theme-color" content="#050a12">
+
+  <!-- Compartilhamento (WhatsApp, Facebook, Instagram) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mont Blanc Residence · Grupo VIP do lançamento">
+  <meta property="og:description" content="Receba tabela, plantas e condições de pré-lançamento antes de todo mundo.">
+  <meta property="og:image" content="assets/img/mont-blanc/aerea-noite.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="assets/img/mont-blanc/lazer-piscina.webp" type="image/webp">
+  <link rel="stylesheet" href="css/style.css?v=20261022c">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header" id="top">
+    <a href="#top" class="brand" aria-label="Costa Nobre Imóveis — início">
+      <span class="brand__name">Costa Nobre</span>
+      <span class="brand__tag">Imóveis</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#mont-blanc">O empreendimento</a>
+      <a href="#lazer">Lazer</a>
+      <a href="#plantas">Plantas</a>
+      <a href="#localizacao">Localização</a>
+      <a href="https://www.instagram.com/costanobreimoveis/" target="_blank" rel="noopener" class="nav__insta" aria-label="Instagram da Costa Nobre Imóveis"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg><span>Instagram</span></a>
+      <a href="#grupo" class="btn btn--ghost btn--sm" data-cta="grupo">Entrar no grupo</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- ===== Hero cinematográfico (scroll travado) ===== -->
+    <section class="hero" id="hero" aria-label="Apresentação">
+      <div class="hero__stage" id="stage">
+
+        <!-- Cena 1: piscina de borda infinita com vista para o mar -->
+        <div class="scene scene--wide" id="sceneWide">
+          <div class="media" data-ratio="1.7778" data-fx="0.55" data-fy="0.5" id="mediaWide">
+            <img class="layer layer--back" src="assets/img/mont-blanc/lazer-piscina.webp" alt="Piscina aquecida de borda infinita do Mont Blanc Residence, de frente para o mar" decoding="async" fetchpriority="high">
+            <img class="layer layer--front" src="assets/img/mont-blanc/lazer-piscina.webp" alt="" aria-hidden="true" decoding="async">
+          </div>
+        </div>
+
+        <!-- Cena 2: chegada ao terraço do lazer, de frente para o mar -->
+        <div class="scene scene--towers" id="sceneTowers">
+          <div class="media" data-ratio="1.7778" data-fx="0.45" data-fy="0.5" id="mediaTowers">
+            <img class="layer layer--back" src="assets/img/mont-blanc/lazer-terraco.webp" alt="Terraço do lazer com sofás e piscina de borda infinita de frente para o mar" decoding="async">
+            <img class="layer layer--front" src="assets/img/mont-blanc/lazer-terraco.webp" alt="" aria-hidden="true" decoding="async">
+          </div>
+        </div>
+
+        <!-- Efeitos atmosféricos -->
+        <div class="fx fx--stars" aria-hidden="true"></div>
+        <div class="fx fx--haze" id="fxHaze" aria-hidden="true"></div>
+        <div class="fx fx--streaks" id="fxStreaks" aria-hidden="true"></div>
+        <div class="fx fx--shade" aria-hidden="true"></div>
+        <div class="fx fx--grain" aria-hidden="true"></div>
+
+        <!-- Títulos sincronizados com a câmera -->
+        <div class="hero__titles">
+          <div class="title" data-window="0.03,0.12,0.24,0.32">
+            <span class="eyebrow">01 — Lançamento GWP Empreendimentos</span>
+            <h1>Mont Blanc<br><em>Residence</em></h1>
+          </div>
+          <div class="title" data-window="0.36,0.45,0.56,0.64">
+            <span class="eyebrow">02 — Pavimento inteiro de lazer</span>
+            <h1>Piscina aquecida<br><em>de borda infinita</em></h1>
+          </div>
+          <div class="title title--final" data-window="0.70,0.80,9,9">
+            <span class="eyebrow">03 — Grupo VIP do lançamento</span>
+            <h1>Onde o luxo<br>encontra <em>o horizonte</em></h1>
+          </div>
+        </div>
+
+        <div class="hero__cta" id="heroCta">
+          <a href="#grupo" class="btn btn--gold" data-cta="grupo">Quero entrar no grupo VIP</a>
+          <a href="#mont-blanc" class="btn btn--ghost">Conhecer o empreendimento</a>
+        </div>
+
+        <div class="scroll-cue" id="scrollCue" aria-hidden="true">
+          <span>Role para explorar</span>
+          <i></i>
+        </div>
+
+        <div class="hero__progress" aria-hidden="true">
+          <span class="hero__progress-label" id="progressLabel">01</span>
+          <span class="hero__progress-track"><span class="hero__progress-fill" id="progressFill"></span></span>
+          <span class="hero__progress-label">03</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Faixa de destaques ===== -->
+    <div class="ticker" aria-label="Destaques do Mont Blanc Residence">
+      <div class="ticker__track">
+        <div class="ticker__group"><span class="ticker__item">Frente mar</span><span class="ticker__item">20 pavimentos</span><span class="ticker__item">Piscina aquecida de borda infinita</span><span class="ticker__item">796 m² de lazer</span><span class="ticker__item">Coberturas duplex</span><span class="ticker__item">14 ambientes</span><span class="ticker__item">Balneário Gaivota · SC</span></div>
+        <div class="ticker__group" aria-hidden="true"><span class="ticker__item">Frente mar</span><span class="ticker__item">20 pavimentos</span><span class="ticker__item">Piscina aquecida de borda infinita</span><span class="ticker__item">796 m² de lazer</span><span class="ticker__item">Coberturas duplex</span><span class="ticker__item">14 ambientes</span><span class="ticker__item">Balneário Gaivota · SC</span></div>
+      </div>
+    </div>
+
+    <!-- =========================================================
+         EMPREENDIMENTO: Mont Blanc Residence
+         (para um novo projeto, duplique os blocos marcados com "MB")
+         ========================================================= -->
+
+    <!-- MB · Apresentação -->
+    <section class="section mb-intro" id="mont-blanc">
+      <div class="container">
+        <div class="mb-intro__head">
+          <img class="mb-logo reveal" src="assets/img/mont-blanc/logo-mont-blanc.png" alt="Mont Blanc Residence" width="466" height="307">
+          <div class="mb-intro__text">
+            <span class="eyebrow reveal">GWP Empreendimentos · Costa Nobre Imóveis</span>
+            <h2 class="reveal">Frente mar em<br><em>Balneário Gaivota</em></h2>
+            <p class="reveal">Ao adentrar pela luxuosa fachada, a certeza de realizar um sonho e alcançar um novo padrão de vida. O Mont Blanc Residence se destaca pela sofisticação em cada detalhe, acabamentos de altíssimo padrão e ambientes que marcam pelo estilo singular e personalidade.</p>
+          </div>
+        </div>
+
+        <figure class="mb-hero reveal">
+          <img src="assets/img/mont-blanc/aerea-noite.webp" alt="Vista aérea noturna do Mont Blanc Residence na orla de Balneário Gaivota" loading="lazy" decoding="async" width="1600" height="900">
+        </figure>
+
+        <dl class="facts">
+          <div class="reveal"><dt>20</dt><dd>pavimentos</dd></div>
+          <div class="reveal"><dt>70,80 m</dt><dd>de altura</dd></div>
+          <div class="reveal"><dt>52</dt><dd>apartamentos</dd></div>
+          <div class="reveal"><dt>796 m²</dt><dd>de lazer em 14 ambientes</dd></div>
+          <div class="reveal"><dt>2</dt><dd>frentes · Av. Beira Mar e Rua Minas Gerais</dd></div>
+          <div class="reveal"><dt>3</dt><dd>salas comerciais</dd></div>
+        </dl>
+
+        <div class="mb-story">
+          <figure class="mb-story__img reveal">
+            <img src="assets/img/mont-blanc/fachada-detalhe.webp" alt="Detalhe da fachada neoclássica com o letreiro Mont Blanc" loading="lazy" decoding="async" width="680" height="800">
+          </figure>
+          <div class="mb-story__text">
+            <p class="reveal">Cada detalhe foi minimamente planejado para surpreender e encantar: qualidade que se sente no toque e no olhar, alinhando o que há de mais moderno em tecnologias construtivas a refinados padrões de acabamento, tudo à vista de uma das mais encantadoras paisagens frente ao mar do litoral catarinense.</p>
+            <p class="reveal">A arquitetura traz uma releitura do estilo neoclássico, da fachada ao interior: uma estética sofisticada que ganha novos ares com linhas e texturas contemporâneas, decoração elegante e mobiliário de design moderno.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Vantagens do grupo VIP ===== -->
+    <section class="section perks" id="vantagens">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow reveal">Grupo VIP</span>
+          <h2 class="reveal">Quem está no grupo<br><em>sai na frente</em></h2>
+          <p class="reveal">Um grupo exclusivo para quem quer acompanhar o lançamento de perto e ter prioridade nas melhores oportunidades.</p>
+        </header>
+
+        <div class="features">
+          <div class="feature reveal">
+            <span class="feature__num">I</span>
+            <h3>Tabela antecipada</h3>
+            <p>Receba os valores de pré-lançamento antes da abertura ao público.</p>
+          </div>
+          <div class="feature reveal">
+            <span class="feature__num">II</span>
+            <h3>Condições exclusivas</h3>
+            <p>Formas de pagamento e condições especiais para quem chega primeiro.</p>
+          </div>
+          <div class="feature reveal">
+            <span class="feature__num">III</span>
+            <h3>Escolha das unidades</h3>
+            <p>Prioridade para escolher andar, posição solar e vista.</p>
+          </div>
+          <div class="feature reveal">
+            <span class="feature__num">IV</span>
+            <h3>Novidades em primeira mão</h3>
+            <p>Plantas, imagens e detalhes do projeto direto no seu WhatsApp.</p>
+          </div>
+        </div>
+
+        <div class="perks__cta reveal">
+          <a href="#grupo" class="btn btn--gold" data-cta="grupo">Quero entrar no grupo VIP</a>
+          <span class="perks__note">Gratuito · Sem compromisso</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- MB · Localização -->
+    <section class="section place" id="localizacao">
+      <div class="container">
+        <figure class="place__wide reveal">
+          <img src="assets/img/mont-blanc/beira-mar-aerea.webp" alt="Vista aérea da Avenida Beira Mar em Balneário Gaivota ao amanhecer" loading="lazy" decoding="async" width="1600" height="632">
+        </figure>
+        <div class="place__grid">
+          <div class="place__text">
+            <span class="eyebrow reveal">Localização</span>
+            <h2 class="reveal">Balneário Gaivota,<br><em>a maior orla de SC</em></h2>
+            <p class="place__lead reveal">Nos traços riscados nas areias, todo o encanto de um lugar especial.</p>
+            <p class="reveal">Um lugar onde a natureza se apresenta abundante e intocada, com praias limpas de areias claras e mar calmo. Balneário Gaivota fica no litoral sul catarinense e tem a maior orla de Santa Catarina, com 23 km de extensão, cercada de dunas e lagoas preservadas.</p>
+            <dl class="place__info reveal">
+              <div><dt>Endereço</dt><dd>Avenida Beira Mar, Turimar<br>Balneário Gaivota · SC</dd></div>
+              <div><dt>Frentes</dt><dd>Av. Beira Mar e Rua Minas Gerais</dd></div>
+              <div><dt>Orla</dt><dd>23 km de praia</dd></div>
+            </dl>
+          </div>
+          <div class="place__photos">
+            <img class="reveal" src="assets/img/mont-blanc/orla-dia.webp" alt="O Mont Blanc Residence de frente para as dunas e o mar" loading="lazy" decoding="async" width="880" height="800">
+            <img class="reveal" src="assets/img/mont-blanc/gaivota-orla.webp" alt="Vista aérea da orla de Balneário Gaivota" loading="lazy" decoding="async" width="500" height="732">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MB · Pavimentos -->
+    <section class="section floors" id="pavimentos">
+      <div class="container floors__grid">
+        <figure class="floors__img reveal">
+          <img src="assets/img/mont-blanc/fachada-dia.webp" alt="Fachada neoclássica do Mont Blanc Residence" loading="lazy" decoding="async" width="868" height="900">
+        </figure>
+        <div class="floors__text">
+          <span class="eyebrow reveal">Distribuição</span>
+          <h2 class="reveal">Cada pavimento<br><em>com um propósito</em></h2>
+          <ol class="stack">
+            <li class="reveal"><span class="stack__floor">19º–20º</span><span class="stack__name">Coberturas duplex</span><span class="stack__info">4 unidades · finais 1, 2, 3 e 4</span></li>
+            <li class="reveal"><span class="stack__floor">8º–18º</span><span class="stack__name">Apartamentos tipo</span><span class="stack__info">44 unidades · finais 1, 2, 3 e 4</span></li>
+            <li class="reveal"><span class="stack__floor">7º</span><span class="stack__name">Diferenciados</span><span class="stack__info">4 unidades com amplas áreas externas</span></li>
+            <li class="reveal"><span class="stack__floor">6º</span><span class="stack__name">Lazer</span><span class="stack__info">Pavimento inteiro, com piscina aquecida de borda infinita</span></li>
+            <li class="reveal"><span class="stack__floor">2º–5º</span><span class="stack__name">Garagem</span><span class="stack__info">Acesso por tag e controle remoto</span></li>
+          </ol>
+          <blockquote class="floors__quote reveal">“Cada detalhe foi minimamente planejado para surpreender e encantar.”</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- MB · Lazer -->
+    <section class="section leisure" id="lazer">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow reveal">Lazer · 6º pavimento</span>
+          <h2 class="reveal">796,78 m² para viver<br><em>em harmonia com o mar</em></h2>
+          <p class="reveal">14 ambientes entregues mobiliados, equipados, decorados e climatizados.</p>
+        </header>
+
+        <div class="leisure__plan">
+          <button class="leisure__planimg reveal" type="button" data-lightbox="assets/img/mont-blanc/planta-lazer.webp" data-group="lazer-planta" data-caption="Planta do lazer · 6º pavimento · 796,78 m²">
+            <img src="assets/img/mont-blanc/planta-lazer.webp" alt="Planta do pavimento de lazer com os 14 ambientes numerados" loading="lazy" decoding="async">
+            <span class="unit__zoom">Ver planta do lazer</span>
+          </button>
+          <ol class="amb reveal">
+            <li><span class="amb__n">01</span><span class="amb__name">Piscina adulto</span><span class="amb__m2">39,80 m²</span></li>
+            <li><span class="amb__n">02</span><span class="amb__name">Prainha</span><span class="amb__m2">14,00 m²</span></li>
+            <li><span class="amb__n">03</span><span class="amb__name">Lounge externo</span><span class="amb__m2">90,32 m²</span></li>
+            <li><span class="amb__n">04</span><span class="amb__name">Gourmet piscina</span><span class="amb__m2">66,43 m²</span></li>
+            <li><span class="amb__n">05</span><span class="amb__name">Salão de festas</span><span class="amb__m2">128,25 m²</span></li>
+            <li><span class="amb__n">06</span><span class="amb__name">Brinquedoteca</span><span class="amb__m2">38,99 m²</span></li>
+            <li><span class="amb__n">07</span><span class="amb__name">Academia</span><span class="amb__m2">52,85 m²</span></li>
+            <li><span class="amb__n">08</span><span class="amb__name">Sala de poker</span><span class="amb__m2">19,64 m²</span></li>
+            <li><span class="amb__n">09</span><span class="amb__name">Sala de jogos</span><span class="amb__m2">38,60 m²</span></li>
+            <li><span class="amb__n">10</span><span class="amb__name">Sauna e spa</span><span class="amb__m2">47,36 m²</span></li>
+            <li><span class="amb__n">11</span><span class="amb__name">Sports bar</span><span class="amb__m2">28,98 m²</span></li>
+            <li><span class="amb__n">12</span><span class="amb__name">Playground</span><span class="amb__m2">34,21 m²</span></li>
+            <li><span class="amb__n">13</span><span class="amb__name">Fireplace</span><span class="amb__m2">12,45 m²</span></li>
+            <li><span class="amb__n">14</span><span class="amb__name">Wine garden</span><span class="amb__m2">12,45 m²</span></li>
+          </ol>
+        </div>
+
+        <div class="carousel" id="lazerCarousel" aria-roledescription="carrossel" aria-label="Fotos do lazer">
+          <div class="carousel__bar">
+            <div class="carousel__status">
+              <span class="carousel__count" id="lazerCount">01 / 16</span>
+              <span class="carousel__timer" aria-hidden="true"><span id="lazerTimer"></span></span>
+            </div>
+            <div class="carousel__nav">
+              <button class="carousel__btn carousel__btn--play" type="button" id="lazerPlay" aria-label="Pausar a passagem automática" aria-pressed="false">❚❚</button>
+              <button class="carousel__btn" type="button" id="lazerPrev" aria-label="Fotos anteriores">‹</button>
+              <button class="carousel__btn" type="button" id="lazerNext" aria-label="Próximas fotos">›</button>
+            </div>
+          </div>
+        <div class="photo-grid" id="lazerTrack">
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/lazer-piscina.webp" data-group="lazer" data-caption="Piscina aquecida de borda infinita">
+              <img src="assets/img/mont-blanc/lazer-piscina.webp" alt="Piscina aquecida de borda infinita" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Piscina aquecida de borda infinita</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/lazer-terraco.webp" data-group="lazer" data-caption="Lounge externo">
+              <img src="assets/img/mont-blanc/lazer-terraco.webp" alt="Lounge externo" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Lounge externo</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/lazer-solario.webp" data-group="lazer" data-caption="Solário com vista definitiva para o mar">
+              <img src="assets/img/mont-blanc/lazer-solario.webp" alt="Solário com vista definitiva para o mar" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Solário com vista definitiva para o mar</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/gourmet-2.webp" data-group="lazer" data-caption="Gourmet piscina">
+              <img src="assets/img/mont-blanc/gourmet-2.webp" alt="Gourmet piscina" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Gourmet piscina</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/gourmet-1.webp" data-group="lazer" data-caption="Gourmet piscina · estar">
+              <img src="assets/img/mont-blanc/gourmet-1.webp" alt="Gourmet piscina · estar" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Gourmet piscina · estar</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/salao-1.webp" data-group="lazer" data-caption="Salão de festas">
+              <img src="assets/img/mont-blanc/salao-1.webp" alt="Salão de festas" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Salão de festas</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/salao-2.webp" data-group="lazer" data-caption="Salão de festas · até 45 pessoas sentadas">
+              <img src="assets/img/mont-blanc/salao-2.webp" alt="Salão de festas · até 45 pessoas sentadas" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Salão de festas · até 45 pessoas sentadas</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/salao-3.webp" data-group="lazer" data-caption="Salão de festas · lounge">
+              <img src="assets/img/mont-blanc/salao-3.webp" alt="Salão de festas · lounge" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Salão de festas · lounge</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/jogos-1.webp" data-group="lazer" data-caption="Sala de jogos">
+              <img src="assets/img/mont-blanc/jogos-1.webp" alt="Sala de jogos" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Sala de jogos</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/jogos-2.webp" data-group="lazer" data-caption="Sala de jogos · vista para a cidade">
+              <img src="assets/img/mont-blanc/jogos-2.webp" alt="Sala de jogos · vista para a cidade" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Sala de jogos · vista para a cidade</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/poker.webp" data-group="lazer" data-caption="Sala de poker">
+              <img src="assets/img/mont-blanc/poker.webp" alt="Sala de poker" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Sala de poker</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/academia.webp" data-group="lazer" data-caption="Academia">
+              <img src="assets/img/mont-blanc/academia.webp" alt="Academia" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Academia</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/spa-1.webp" data-group="lazer" data-caption="Sauna e spa">
+              <img src="assets/img/mont-blanc/spa-1.webp" alt="Sauna e spa" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Sauna e spa</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/spa-2.webp" data-group="lazer" data-caption="Spa com vista para o mar">
+              <img src="assets/img/mont-blanc/spa-2.webp" alt="Spa com vista para o mar" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Spa com vista para o mar</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/brinquedoteca.webp" data-group="lazer" data-caption="Brinquedoteca">
+              <img src="assets/img/mont-blanc/brinquedoteca.webp" alt="Brinquedoteca" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Brinquedoteca</span>
+            </button>
+            <button class="grid-photo" type="button" data-lightbox="assets/img/mont-blanc/playground-wine.webp" data-group="lazer" data-caption="Playground e wine garden com fireplace">
+              <img src="assets/img/mont-blanc/playground-wine.webp" alt="Playground e wine garden com fireplace" loading="lazy" decoding="async">
+              <span class="grid-photo__cap">Playground e wine garden com fireplace</span>
+            </button>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MB · Interiores -->
+    <section class="section gallery" id="galeria">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow reveal">Interiores</span>
+          <h2 class="reveal">Conforto para o dia a dia<br><em>com vista para o mar</em></h2>
+        </header>
+        <div class="tabs" data-tabs>
+          <div class="tabs__list" role="tablist" aria-label="Ambientes internos">
+            <button class="tabs__btn" role="tab" id="tab-gal-tipo" aria-controls="panel-gal-tipo" aria-selected="true">Apartamentos tipo</button>
+            <button class="tabs__btn" role="tab" id="tab-gal-cob" aria-controls="panel-gal-cob" aria-selected="false" tabindex="-1">Coberturas duplex</button>
+            <button class="tabs__btn" role="tab" id="tab-gal-hall" aria-controls="panel-gal-hall" aria-selected="false" tabindex="-1">Hall de entrada</button>
+          </div>
+          <div class="tabs__panel" role="tabpanel" id="panel-gal-tipo" aria-labelledby="tab-gal-tipo">
+            <div class="bento">
+            <button class="bento__item bento__item--wide" type="button" data-lightbox="assets/img/mont-blanc/living-tipo.webp" data-group="g-tipo" data-caption="Living integrado · apartamento tipo 1">
+              <img src="assets/img/mont-blanc/living-tipo.webp" alt="Living integrado · apartamento tipo 1" loading="lazy" decoding="async">
+              <span class="bento__cap">Living integrado · apartamento tipo 1</span>
+            </button>
+            <button class="bento__item" type="button" data-lightbox="assets/img/mont-blanc/varanda-tipo.webp" data-group="g-tipo" data-caption="Varanda com churrasqueira">
+              <img src="assets/img/mont-blanc/varanda-tipo.webp" alt="Varanda com churrasqueira" loading="lazy" decoding="async">
+              <span class="bento__cap">Varanda com churrasqueira</span>
+            </button>
+            <button class="bento__item" type="button" data-lightbox="assets/img/mont-blanc/suite-tipo.webp" data-group="g-tipo" data-caption="Suíte · apartamento tipo 1">
+              <img src="assets/img/mont-blanc/suite-tipo.webp" alt="Suíte · apartamento tipo 1" loading="lazy" decoding="async">
+              <span class="bento__cap">Suíte · apartamento tipo 1</span>
+            </button>
+            <button class="bento__item bento__item--wide" type="button" data-lightbox="assets/img/mont-blanc/cozinha-tipo.webp" data-group="g-tipo" data-caption="Cozinha aberta para a varanda">
+              <img src="assets/img/mont-blanc/cozinha-tipo.webp" alt="Cozinha aberta para a varanda" loading="lazy" decoding="async">
+              <span class="bento__cap">Cozinha aberta para a varanda</span>
+            </button>
+            </div>
+          </div>
+          <div class="tabs__panel" role="tabpanel" id="panel-gal-cob" aria-labelledby="tab-gal-cob" hidden>
+            <div class="bento">
+            <button class="bento__item bento__item--wide" type="button" data-lightbox="assets/img/mont-blanc/living-cobertura.webp" data-group="g-cob" data-caption="Living · cobertura duplex 1">
+              <img src="assets/img/mont-blanc/living-cobertura.webp" alt="Living · cobertura duplex 1" loading="lazy" decoding="async">
+              <span class="bento__cap">Living · cobertura duplex 1</span>
+            </button>
+            <button class="bento__item" type="button" data-lightbox="assets/img/mont-blanc/suite-master.webp" data-group="g-cob" data-caption="Suíte master · cobertura duplex 1">
+              <img src="assets/img/mont-blanc/suite-master.webp" alt="Suíte master · cobertura duplex 1" loading="lazy" decoding="async">
+              <span class="bento__cap">Suíte master · cobertura duplex 1</span>
+            </button>
+            <button class="bento__item bento__item--full" type="button" data-lightbox="assets/img/mont-blanc/piscina-varanda.webp" data-group="g-cob" data-caption="Piscina na varanda com lateral de vidro">
+              <img src="assets/img/mont-blanc/piscina-varanda.webp" alt="Piscina na varanda com lateral de vidro" loading="lazy" decoding="async">
+              <span class="bento__cap">Piscina na varanda com lateral de vidro</span>
+            </button>
+            </div>
+          </div>
+          <div class="tabs__panel" role="tabpanel" id="panel-gal-hall" aria-labelledby="tab-gal-hall" hidden>
+            <div class="bento">
+            <button class="bento__item" type="button" data-lightbox="assets/img/mont-blanc/hall-1.webp" data-group="g-hall" data-caption="Hall de entrada decorado">
+              <img src="assets/img/mont-blanc/hall-1.webp" alt="Hall de entrada decorado" loading="lazy" decoding="async">
+              <span class="bento__cap">Hall de entrada decorado</span>
+            </button>
+            <button class="bento__item bento__item--wide" type="button" data-lightbox="assets/img/mont-blanc/hall-2.webp" data-group="g-hall" data-caption="Hall · estar com pé-direito alto">
+              <img src="assets/img/mont-blanc/hall-2.webp" alt="Hall · estar com pé-direito alto" loading="lazy" decoding="async">
+              <span class="bento__cap">Hall · estar com pé-direito alto</span>
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MB · Plantas -->
+    <section class="section plans" id="plantas">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow reveal">Plantas</span>
+          <h2 class="reveal">Escolha a sua<br><em>unidade</em></h2>
+          <p class="reveal">Toque em uma unidade para ver a planta completa, com a metragem de cada ambiente.</p>
+        </header>
+
+        <div class="tabs" data-tabs>
+          <div class="tabs__list" role="tablist" aria-label="Tipos de unidade">
+            <button class="tabs__btn" role="tab" id="tab-tipo" aria-controls="panel-tipo" aria-selected="true">Apartamentos tipo · 8º–18º</button>
+            <button class="tabs__btn" role="tab" id="tab-dif" aria-controls="panel-dif" aria-selected="false" tabindex="-1">Diferenciados · 7º</button>
+            <button class="tabs__btn" role="tab" id="tab-cob" aria-controls="panel-cob" aria-selected="false" tabindex="-1">Coberturas duplex · 19º–20º</button>
+          </div>
+          <div class="tabs__panel" role="tabpanel" id="panel-tipo" aria-labelledby="tab-tipo">
+            <ul class="chips">
+              <li>2 ou 3 suítes (sendo 2 demi)</li>
+              <li>2 vagas de garagem</li>
+              <li>Living integrado</li>
+              <li>Churrasqueira a carvão</li>
+              <li>Hobby box</li>
+              <li>8º ao 18º pavimento</li>
+            </ul>
+            <div class="units">
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-801.webp" data-group="tipo" data-caption="801–1801 · 110,84 m² privativos · 3 suítes (2 demi)">
+                  <img src="assets/img/mont-blanc/planta-801.webp" alt="Planta da unidade 801–1801" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">801–1801</span>
+                  <ul class="unit__specs">
+                    <li><strong>110,84 m²</strong> privativos</li>
+                    <li>3 suítes (2 demi)</li>
+                  </ul>
+                  <span class="unit__tag">Sacada de 8,78 m² · frente mar</span>
+                </div>
+              </article>
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-802.webp" data-group="tipo" data-caption="802–1802 · 95,92 m² privativos · 2 suítes">
+                  <img src="assets/img/mont-blanc/planta-802.webp" alt="Planta da unidade 802–1802" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">802–1802</span>
+                  <ul class="unit__specs">
+                    <li><strong>95,92 m²</strong> privativos</li>
+                    <li>2 suítes</li>
+                  </ul>
+                  <span class="unit__tag">Sacada de 8,79 m² · frente mar</span>
+                </div>
+              </article>
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-803.webp" data-group="tipo" data-caption="803–1803 · 92,04 m² privativos · 2 suítes">
+                  <img src="assets/img/mont-blanc/planta-803.webp" alt="Planta da unidade 803–1803" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">803–1803</span>
+                  <ul class="unit__specs">
+                    <li><strong>92,04 m²</strong> privativos</li>
+                    <li>2 suítes</li>
+                  </ul>
+                  <span class="unit__tag">Sacada de 7,71 m²</span>
+                </div>
+              </article>
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-804.webp" data-group="tipo" data-caption="804–1804 · 92,55 m² privativos · 2 suítes">
+                  <img src="assets/img/mont-blanc/planta-804.webp" alt="Planta da unidade 804–1804" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">804–1804</span>
+                  <ul class="unit__specs">
+                    <li><strong>92,55 m²</strong> privativos</li>
+                    <li>2 suítes</li>
+                  </ul>
+                  <span class="unit__tag">Sacada de 7,71 m²</span>
+                </div>
+              </article>
+            </div>
+            <button class="link-arrow plans__overview" type="button" data-lightbox="assets/img/mont-blanc/plantas-tipos.webp" data-group="tipo" data-caption="Apartamentos tipo · visão geral do pavimento">Ver o pavimento tipo completo</button>
+          </div>
+          <div class="tabs__panel" role="tabpanel" id="panel-dif" aria-labelledby="tab-dif" hidden>
+            <ul class="chips">
+              <li>2 ou 3 suítes (sendo 2 demi)</li>
+              <li>2 vagas de garagem</li>
+              <li>Área externa descoberta</li>
+              <li>Churrasqueira a carvão</li>
+              <li>Hobby box</li>
+              <li>7º pavimento</li>
+            </ul>
+            <div class="units">
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-701.webp" data-group="dif" data-caption="701 · 143,12 m² privativos · 3 suítes (2 demi)">
+                  <img src="assets/img/mont-blanc/planta-701.webp" alt="Planta da unidade 701" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">701</span>
+                  <ul class="unit__specs">
+                    <li><strong>143,12 m²</strong> privativos</li>
+                    <li>3 suítes (2 demi)</li>
+                  </ul>
+                  <span class="unit__tag">Área externa de 37,78 m²</span>
+                </div>
+              </article>
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-702.webp" data-group="dif" data-caption="702 · 123,16 m² privativos · 2 suítes">
+                  <img src="assets/img/mont-blanc/planta-702.webp" alt="Planta da unidade 702" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">702</span>
+                  <ul class="unit__specs">
+                    <li><strong>123,16 m²</strong> privativos</li>
+                    <li>2 suítes</li>
+                  </ul>
+                  <span class="unit__tag">Área externa de 33,27 m²</span>
+                </div>
+              </article>
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-703.webp" data-group="dif" data-caption="703 · 154,96 m² privativos · 2 suítes">
+                  <img src="assets/img/mont-blanc/planta-703.webp" alt="Planta da unidade 703" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">703</span>
+                  <ul class="unit__specs">
+                    <li><strong>154,96 m²</strong> privativos</li>
+                    <li>2 suítes</li>
+                  </ul>
+                  <span class="unit__tag">Área externa de 66,60 m²</span>
+                </div>
+              </article>
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-704.webp" data-group="dif" data-caption="704 · 152,87 m² privativos · 2 suítes">
+                  <img src="assets/img/mont-blanc/planta-704.webp" alt="Planta da unidade 704" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">704</span>
+                  <ul class="unit__specs">
+                    <li><strong>152,87 m²</strong> privativos</li>
+                    <li>2 suítes</li>
+                  </ul>
+                  <span class="unit__tag">Área externa de 64,30 m²</span>
+                </div>
+              </article>
+            </div>
+            <button class="link-arrow plans__overview" type="button" data-lightbox="assets/img/mont-blanc/plantas-diferenciados.webp" data-group="dif" data-caption="Diferenciados · visão geral do 7º pavimento">Ver o 7º pavimento completo</button>
+          </div>
+          <div class="tabs__panel" role="tabpanel" id="panel-cob" aria-labelledby="tab-cob" hidden>
+            <ul class="chips">
+              <li>3 ou 4 suítes (sendo 2 demi)</li>
+              <li>3 e 4 vagas de garagem</li>
+              <li>Churrasqueira a carvão</li>
+              <li>Piscina privativa · finais 1 e 2</li>
+              <li>Spa privativo · finais 3 e 4</li>
+              <li>Hobby box</li>
+            </ul>
+            <div class="units">
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-1901.webp" data-group="cob" data-caption="1901 · 222,72 m² privativos · 4 suítes (2 demi)">
+                  <img src="assets/img/mont-blanc/planta-1901.webp" alt="Planta da unidade 1901" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">1901</span>
+                  <ul class="unit__specs">
+                    <li><strong>222,72 m²</strong> privativos</li>
+                    <li>4 suítes (2 demi)</li>
+                  </ul>
+                  <span class="unit__tag">Piscina privativa</span>
+                </div>
+              </article>
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-1902.webp" data-group="cob" data-caption="1902 · 188,02 m² privativos · 3 suítes">
+                  <img src="assets/img/mont-blanc/planta-1902.webp" alt="Planta da unidade 1902" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">1902</span>
+                  <ul class="unit__specs">
+                    <li><strong>188,02 m²</strong> privativos</li>
+                    <li>3 suítes</li>
+                  </ul>
+                  <span class="unit__tag">Piscina privativa</span>
+                </div>
+              </article>
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-1903.webp" data-group="cob" data-caption="1903 · 183,92 m² privativos · 3 suítes">
+                  <img src="assets/img/mont-blanc/planta-1903.webp" alt="Planta da unidade 1903" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">1903</span>
+                  <ul class="unit__specs">
+                    <li><strong>183,92 m²</strong> privativos</li>
+                    <li>3 suítes</li>
+                  </ul>
+                  <span class="unit__tag">Sacada com spa</span>
+                </div>
+              </article>
+              <article class="unit">
+                <button class="unit__media" type="button" data-lightbox="assets/img/mont-blanc/planta-1904.webp" data-group="cob" data-caption="1904 · 185,32 m² privativos · 3 suítes">
+                  <img src="assets/img/mont-blanc/planta-1904.webp" alt="Planta da unidade 1904" loading="lazy" decoding="async">
+                  <span class="unit__zoom">Ver planta</span>
+                </button>
+                <div class="unit__body">
+                  <span class="unit__code">1904</span>
+                  <ul class="unit__specs">
+                    <li><strong>185,32 m²</strong> privativos</li>
+                    <li>3 suítes</li>
+                  </ul>
+                  <span class="unit__tag">Sacada com spa</span>
+                </div>
+              </article>
+            </div>
+            <button class="link-arrow plans__overview" type="button" data-lightbox="assets/img/mont-blanc/plantas-coberturas.webp" data-group="cob" data-caption="Coberturas duplex · pavimentos superior e inferior">Ver as 4 coberturas lado a lado</button>
+          </div>
+        </div>
+
+        <div class="inline-cta reveal">
+          <p><strong>Quer saber os valores?</strong> A tabela das unidades sai primeiro no grupo VIP.</p>
+          <a href="#grupo" class="btn btn--gold" data-cta="grupo">Receber a tabela</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MB · Diferenciais -->
+    <section class="section specs" id="diferenciais">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow reveal">Diferenciais</span>
+          <h2 class="reveal">Pensado em<br><em>cada detalhe</em></h2>
+        </header>
+
+        <div class="tabs" data-tabs>
+          <div class="tabs__list" role="tablist" aria-label="Categorias de diferenciais">
+            <button class="tabs__btn" role="tab" id="tab-emp" aria-controls="panel-emp" aria-selected="true">Empreendimento</button>
+            <button class="tabs__btn" role="tab" id="tab-apt" aria-controls="panel-apt" aria-selected="false" tabindex="-1">Apartamentos</button>
+            <button class="tabs__btn" role="tab" id="tab-sus" aria-controls="panel-sus" aria-selected="false" tabindex="-1">Sustentabilidade</button>
+            <button class="tabs__btn" role="tab" id="tab-seg" aria-controls="panel-seg" aria-selected="false" tabindex="-1">Segurança</button>
+          </div>
+          <div class="tabs__panel" role="tabpanel" id="panel-emp" aria-labelledby="tab-emp">
+            <ul class="spec-list">
+                <li>Fachada neoclássica</li>
+                <li>Projeto de esquadrias em alumínio</li>
+                <li>2 elevadores de alta velocidade</li>
+                <li>Ambientes sociais com internet wi-fi</li>
+                <li>Hall de entrada com pé-direito alto</li>
+                <li>Áreas comuns entregues equipadas, decoradas e climatizadas</li>
+                <li>Automação de iluminação, áudio, vídeo e climatização nas áreas comuns</li>
+                <li>Hobby box</li>
+                <li>Piscina aquecida com borda infinita de frente ao mar</li>
+                <li>Terraço da piscina com espreguiçadeiras</li>
+                <li>Entrada exclusiva para banhistas</li>
+                <li>Bicicletário</li>
+                <li>Isolamento acústico no lazer</li>
+                <li>Revestimento com pastilhas no embasamento</li>
+                <li>Sistema de proteção contra descargas elétricas</li>
+            </ul>
+          </div>
+          <div class="tabs__panel" role="tabpanel" id="panel-apt" aria-labelledby="tab-apt" hidden>
+            <ul class="spec-list">
+                <li>Todos os apartamentos com vista para a serra e o mar</li>
+                <li>Churrasqueira a carvão com sistema de exaustão por dumper</li>
+                <li>Medidores individuais de água, gás e energia</li>
+                <li>Infraestrutura para aquecedor e sistema de recirculação de água quente</li>
+                <li>Infraestrutura para 1 ponto de carregamento de veículo elétrico por apartamento</li>
+                <li>Infraestrutura para automação</li>
+                <li>Piso vinílico nas suítes e porcelanato nas demais áreas</li>
+                <li>Revestimento cerâmico nas áreas de serviço e nos boxes dos banheiros</li>
+                <li>Banheiro com nicho embutido</li>
+                <li>Rebaixo em gesso com cortineiros</li>
+                <li>Portas laqueadas e rodapés em poliestireno</li>
+                <li>Manta de atenuação acústica entre as lajes</li>
+            </ul>
+          </div>
+          <div class="tabs__panel" role="tabpanel" id="panel-sus" aria-labelledby="tab-sus" hidden>
+            <ul class="spec-list">
+                <li>Sistema próprio de tratamento total do esgoto (ETE)</li>
+                <li>Captação de água pluvial com tanque de retardo e aproveitamento da água da chuva</li>
+                <li>Sensores de presença para iluminação nas áreas de circulação</li>
+                <li>Depósito de resíduos comuns e recicláveis com lixeiras específicas</li>
+            </ul>
+          </div>
+          <div class="tabs__panel" role="tabpanel" id="panel-seg" aria-labelledby="tab-seg" hidden>
+            <ul class="spec-list">
+                <li>Guarita climatizada e equipada</li>
+                <li>Sistema de abertura por reconhecimento facial</li>
+                <li>Controle de entrada e saída por reconhecimento facial nas áreas comuns</li>
+                <li>Sistema de monitoramento por câmeras</li>
+                <li>Portões das garagens com acesso por tag e controle remoto</li>
+                <li>Botão de emergência para desligamento da bomba da piscina do lazer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MB · Incorporadora -->
+    <section class="section builder" id="incorporadora">
+      <div class="container builder__grid">
+        <div class="builder__brand reveal">
+          <img class="builder__logo" src="assets/img/mont-blanc/logo-gwp.png" alt="GWP Empreendimentos" width="305" height="165">
+          <span class="builder__motto">Elevando padrões</span>
+          <div class="builder__partner">
+            <span>Comercialização</span>
+            <img src="assets/img/mont-blanc/logo-costa-nobre.png" alt="Costa Nobre Imóveis" width="580" height="236">
+          </div>
+        </div>
+        <div class="builder__text">
+          <span class="eyebrow reveal">A incorporadora</span>
+          <h2 class="reveal">Uma história ligada a<br><em>Balneário Gaivota</em></h2>
+          <p class="reveal">A história da GWP Empreendimentos começou há mais de 10 anos e está ligada ao seu fundador, Guilherme Wolf Pimentel, médico e empresário dos ramos agropecuário e imobiliário. O desejo da família de morar na praia o trouxe a Balneário Gaivota, e a paixão pela região foi imediata.</p>
+          <p class="reveal">A partir de 2013, acreditando no potencial do litoral catarinense, passou a adquirir terrenos na praia quando a cidade ainda era pouco frequentada. Em 2021, incentivado por um amigo construtor de Itapema, encontrou na construção civil uma nova paixão e uma forma de contribuir para o desenvolvimento da região.</p>
+          <p class="reveal">Pautada pela ética e pelo trabalho sério, a GWP traz para Balneário Gaivota o que há de mais avançado em tecnologias construtivas, com projetos que surpreendem pela sofisticação, luxo e personalidade.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Quem somos ===== -->
+    <section class="section team" id="quem-somos">
+      <div class="container team__grid">
+        <figure class="team__photo reveal">
+          <img src="assets/img/equipe.webp" alt="Equipe da Costa Nobre Imóveis no escritório em Balneário Gaivota" width="685" height="489" loading="lazy" decoding="async">
+        </figure>
+
+        <div class="team__text">
+          <span class="eyebrow reveal">Quem somos</span>
+          <h2 class="reveal">Gente daqui, cuidando do <em>seu próximo endereço</em></h2>
+          <p class="reveal">A Costa Nobre Imóveis é uma imobiliária em Balneário Gaivota especializada em casas, apartamentos, terrenos e loteamentos, no litoral sul de Santa Catarina.</p>
+          <p class="reveal">Fundada em dezembro de 2024, a empresa nasce nova, mas é formada por corretores com mais de 5 anos de atuação na região, alguns nascidos e criados em Balneário Gaivota. Essa vivência local garante segurança, assertividade e conhecimento real do mercado em cada negociação.</p>
+          <p class="reveal">Atuamos em Balneário Gaivota e região, o que nos permite acompanhar de perto o crescimento da cidade, identificar oportunidades reais de valorização e orientar nossos clientes com informação atualizada.</p>
+          <p class="reveal">Cada atendimento é tratado com transparência e proximidade, porque sabemos que comprar um imóvel não é só uma negociação: <em>é uma decisão que muda a rotina, o patrimônio e, muitas vezes, a vida de uma família inteira.</em></p>
+
+          <ul class="team__facts">
+            <li class="reveal"><strong>2024</strong><span>fundada em dezembro</span></li>
+            <li class="reveal"><strong>5+</strong><span>anos de atuação na região</span></li>
+            <li class="reveal"><strong>SC</strong><span>litoral sul catarinense</span></li>
+          </ul>
+
+          <a href="https://www.instagram.com/costanobreimoveis/" target="_blank" rel="noopener" class="insta-card reveal">
+            <span class="insta-card__icon"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><rect x="3" y="3" width="22" height="22" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg></span>
+            <span class="insta-card__text"><strong>@costanobreimoveis</strong><span>Acompanhe os lançamentos e os bastidores no Instagram</span></span>
+            <span class="insta-card__cta">Seguir</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Chamada final ===== -->
+    <section class="section join" id="grupo">
+      <div class="container join__box">
+        <span class="eyebrow reveal">Vagas limitadas no grupo</span>
+        <h2 class="reveal">Entre agora no<br><em>grupo VIP do lançamento</em></h2>
+        <p class="reveal">Toque no botão abaixo para entrar no grupo pelo WhatsApp e receber todas as informações antes da abertura ao público.</p>
+        <a href="#" class="btn btn--gold btn--lg reveal" data-cta="grupo">Entrar no grupo VIP</a>
+        <p class="join__note reveal">Gratuito · Sem compromisso · Você pode sair quando quiser</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <a href="#top" class="brand">
+        <span class="brand__name">Costa Nobre</span>
+        <span class="brand__tag">Imóveis</span>
+      </a>
+      <p>Avenida Beira-Mar, 215 — Turimar, Balneário Gaivota · SC<br>© <span id="year"></span> Costa Nobre Imóveis. Todos os direitos reservados.</p>
+      <nav class="footer__links" aria-label="Contato">
+        <a href="https://www.instagram.com/costanobreimoveis/" target="_blank" rel="noopener" class="footer__social"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg><span>@costanobreimoveis</span></a>
+        <a href="https://wa.me/554898117413" target="_blank" rel="noopener">Falar com um corretor</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Visualizador de imagens e plantas -->
+  <dialog class="lightbox" id="lightbox" aria-label="Visualizar imagem">
+    <figure class="lightbox__fig">
+      <img id="lightboxImg" alt="">
+      <figcaption id="lightboxCap"></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__close" type="button" id="lightboxClose" aria-label="Fechar">×</button>
+    <button class="lightbox__btn lightbox__prev" type="button" id="lightboxPrev" aria-label="Imagem anterior">‹</button>
+    <button class="lightbox__btn lightbox__next" type="button" id="lightboxNext" aria-label="Próxima imagem">›</button>
+  </dialog>
+
+  <!-- Barra fixa com o botão do grupo (aparece depois da abertura) -->
+  <div class="cta-bar" id="ctaBar">
+    <span class="cta-bar__text">Mont Blanc Residence · Pré-lançamento</span>
+    <a href="#grupo" class="btn btn--gold btn--sm" data-cta="grupo">Entrar no grupo VIP</a>
+  </div>
+
+  <script src="js/main.js?v=20261022b"></script>
+</body>
+</html>
